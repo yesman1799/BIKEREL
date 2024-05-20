@@ -1,0 +1,85 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100vh;
+    
+    
+}
+
+.carousel {
+    width: 100%;
+    height: 0vh;
+    position: relative;
+    overflow: hidden;
+}
+
+.carousel-slide {
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    position: absolute;
+}
+
+.carousel-btn {
+    background: rgba(0, 0, 0, 0.5);
+    border: none;
+    color: white;
+    font-size: 1.5rem;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.carousel-pagination {
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    gap: 10px;
+}
+
+.carousel-btn--active {
+    background: white;
+    color: black;
+}
+
+.carousel-btn--prev-next {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.carousel-btn--prev {
+    left: 10px;
+}
+
+.carousel-btn--next {
+    right: 10px;
+}
+
+/* Cards Section */
+.panel-row{
+    display: flex;
+    height: 30vh;
+    width: 100vw;
+    
+    gap: 15px;
+    justify-content: space-around;
+    border: 1px solid black;
+}
+
+.panel-slide-right{
+    display: inherit;
+    align-items: center;
+    max-width: 70%;
+    border: 1px solid black;
+    height: 100%;
+    vertical-align: middle;
+}
+.panel-slide-left{
+    display: inherit;
+    align-items: centernb;
+    border: 1px solid black;
+}
