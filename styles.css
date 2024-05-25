@@ -7,6 +7,23 @@ body, html {
     overflow-x: hidden;
 }
 
+nav{
+    width: 100vw;
+    height: 10vh;
+    background: aqua;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+nav > ul{
+    display: flex;
+    align-items: center;
+    gap: 25px;
+    margin-right: 2em;
+    height: 10vh;
+    list-style-type: none;
+}
+
 .carousel {
     width: 100%;
     height: 0vh;
@@ -64,11 +81,11 @@ body, html {
     display: flex;
     height: 40vh;
     width: 100vw;
-    gap: 5px;
     justify-content: space-evenly;
     border: 1px solid black;
     font-size: 1.3em;
     margin: 2.5em 0;
+    line-height: 1.1em;
 }
 
 .panel-slide-left{
@@ -77,8 +94,8 @@ body, html {
     justify-content: center;
     border: 1px solid black;
     min-width: 40vw;
-    font-size: 0.8em;
     background: aqua;
+    padding-left: 50px;
 }
 
 .panel-slide-right{
@@ -87,9 +104,60 @@ body, html {
     max-width: 55vw;
     border: 1px solid black;
     height: 100%;
+    padding: 0 20px 0 5px;
     
     
 }
-.panel-slide-right > p{
+.panel-slide-right p{
     text-align: justify;
+}
+/* Form */
+
+form {
+    width: 500px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+
+  label {
+    display: block;
+    margin-bottom: 5px;
+  }
+
+  input,
+  textarea {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+
+  textarea {
+    height: 100px;
+  }
+
+  button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+
+  button:hover {
+    background-color: #45a049;
+  }
+
+/* Footer */
+
+footer{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 10vh;
+
 }
