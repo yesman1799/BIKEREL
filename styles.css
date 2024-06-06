@@ -5,7 +5,7 @@ body, html {
     height: 100vh;
     box-sizing: border-box;
     overflow-x: hidden;
-    background-image: url('/img/background.jpg');
+    background-image: url('/img/background.jpg ');
 }
 
 nav{
@@ -106,7 +106,7 @@ nav > ul{
     border: 1px solid black;
     height: 100%;
     padding: 0 20px 0 5px;
-    
+    border-radius: 9999px 100px 100px 9999px;
     
 }
 .panel-slide-right p{
